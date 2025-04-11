@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import counterStore from "./stores/counterStore";
 
 function App() {
+  const { count, increase, increaseBy, decrease, decreaseBy, reset } = counterStore();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="container">
+        <h2 className="title">Counter App</h2>
+        <h1 className="count">{count}</h1>
+        <div className="button-group">
+          <button button className="circle-button decrease" onClick={() => decreaseBy(10)}>-10</button>
+          <button className="circle-button decrease" onClick={decrease}>-</button>
+          <button className="circle-button increase" onClick={increase}>+</button>
+          <button className="circle-button increase" onClick={() => increaseBy(10)}>+10</button>
+        </div>
+        <button className="reset-button" onClick={reset}>Reset</button>
+      </div>
     </div>
   );
 }

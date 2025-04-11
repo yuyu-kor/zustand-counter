@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# 🧮 ZustandCounterApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zustand와 React를 사용하여 제작한 **심플하고 반응형 디자인의 카운터 웹앱**입니다.  
+핵심 기능인 숫자 증가/감소/초기화에 더해, **+10 / -10 기능**까지 포함하여  
+직관적이고 편리한 UX를 제공합니다.
 
-## Available Scripts
+👉 **[배포된 앱 바로가기](https://zustand-counter.vercel.app/)**
 
-In the project directory, you can run:
+## 💡 주요 기능
+- 현재 count 실시간 확인
+- 버튼 클릭 시 `-10`, `-1`, `+1`, `+10` 제어 가능
+- Reset 버튼으로 count 초기화
+- Zustand를 활용한 **상태 관리**
+- CSS로 구성된 **모바일 친화적인 UI**
+- 구성 변경 없이 유지보수/기능 확장 용이
 
-### `npm start`
+## 🛠️ 사용 기술 스택
+- **React**
+- **JavaScript (ES6+)**
+- **Zustand** – 상태 관리
+- **CSS**
+- **Vercel** – 배포
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 폴더 구조 예시
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+src/ ├── stores/ │ └── counterStore.js # Zustand store ├── App.js # 메인 ├── App.css # 스타일링 └── index.js
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔄 향후 업데이트 예정
+- 로컬스토리지 연동하여 값 유지
+- 다양한 테마 색상 적용 (다크모드 포함)
+- 카운트 변화 시 애니메이션 추가
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👩‍💻 만든 사람
+**이유진 (@yuyu-kor)**  
+응원과 피드백 언제든 환영 ✨
