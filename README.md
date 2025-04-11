@@ -4,7 +4,7 @@ Zustand와 React를 사용하여 제작한 **심플하고 반응형 디자인의
 핵심 기능인 숫자 증가/감소/초기화에 더해, **+10 / -10 기능**까지 포함하여  
 직관적이고 편리한 UX를 제공합니다.
 
-👉 **[배포된 앱 바로가기](https://zustand-counter.vercel.app/)**
+👉 **[배포된 앱 바로가기](https://zustand-counter-one.vercel.app/)**
 
 ## 💡 주요 기능
 - 현재 count 실시간 확인
